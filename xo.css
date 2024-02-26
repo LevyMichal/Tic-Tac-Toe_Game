@@ -1,0 +1,89 @@
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Permanent+Marker&family=Rubik+Moonrocks&display=swap');
+
+
+
+    html {
+        font-family: "Fredoka";
+        font-weight: lighter;
+    }
+
+    body {
+        font-family: "Fredoka", sans-serif;
+        text-align: center;
+        background-color: #1e1e1e;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1,
+    h2 {
+        color: #fff;
+        font-family: 'Fredoka', sans-serif;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+        margin: 0;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 48px;
+        background: linear-gradient(45deg, #ff6f61, #d94f9f);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    h2 {
+        font-size: 24px;
+        background: linear-gradient(45deg, #4a90e2, #9013fe);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+    }
+
+    table {
+        margin: auto;
+        border-collapse: collapse;
+    }
+
+    td {
+        width: 125px;
+        height: 125px;
+        border: 1px solid #444;
+        text-align: center;
+        font-size: 50px;
+        cursor: pointer;
+        background-color: #333;
+        color: #fff;
+    }
+
+    button {
+        background-color: #444;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        margin: 5px;
+        font-family: "Fredoka", sans-serif;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    button:hover {
+        background-color: #555;
+    }
+
+    button:focus {
+        outline: none;
+    }
+
+    input[type="number"] {
+        padding: 5px;
+        border: 1px solid #444;
+        border-radius: 5px;
+        background-color: #333;
+        color: #fff;
+    }
